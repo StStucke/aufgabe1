@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Neue Beispiele HTM, CSS, JSL, JSR</title>
+    <!-- add style -->
+    <link rel="stylesheet" href="css/css.css"/>
+    <!-- add interaction control -->
+    <script type="application/javascript" src="js/jsl.js"></script>
+    <script type="application/javascript" src="js/jsr.js"></script>
+    <!-- add the "library" script wrapping XMLHttpRequest -->
+    <script type="application/javascript" src="js/lib/xhr.js"></script>
+</head>
+<body>
+    <header>
+
+
+<button class="imgbutton toggle-listeners" onclick="toggleListeners()"></button>
+        <h1>Medien</h1>
+
+        <button class="imgbutton list-view"></button>
+        <button class="imgbutton new-item" ></button>
+
+
+
+
+    </header>
+    <main>
+        <!--Die Listenansicht habe ich durch eine verschachtelte Liste gelöst -->
+        <ul>
+            <li class="puffer"></li>
+            <!--Listenelement Anfang-->
+            <li>
+              <img src="https://placeimg.com/130/130/any">
+
+
+                <ul class="ul-left">
+                    <li class="li-inner">
+                        <a href="">lorempixel.com</a>
+                        <span class="p-right">27.01.2021</span>
+                    </li>
+                    <li class="li-inner">
+
+                        <span class="p-title">M1</span>
+
+                    </li>
+                    <li class="li-inner">
+                        <button class="imgbutton pfeil"></button>
+                        <p>0</p>
+                        <button class="more"></button>
+                    </li>
+
+                </ul>
+            </li>
+            <!--Listenelement Ende-->
+
+            <li>
+                <img src="https://placeimg.com/130/130/any">
+
+                <ul class="ul-left">
+                    <li class="li-inner">
+                        <a href="">lorempixel.com</a>
+                        <span class="p-right">27.01.2021</span>
+                    </li>
+                    <li class="li-inner">
+
+                        <span class="p-title">M1</span>
+
+                    </li>
+                    <li class="li-inner">
+                        <button class="imgbutton pfeil"></button>
+                        <p>0</p>
+                        <button class="more"></button>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li>
+                <img src="https://placeimg.com/130/130/any">
+
+                <ul class="ul-left">
+                    <li class="li-inner">
+                        <a href="">lorempixel.com</a>
+                        <span class="p-right">27.01.2021</span>
+                    </li>
+                    <li class="li-inner">
+
+                        <span class="p-title">M1</span>
+
+                    </li>
+                    <li class="li-inner">
+                        <button class="imgbutton pfeil"></button>
+                        <p>0</p>
+                        <button class="more"></button>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li>
+                <img src="https://placeimg.com/130/130/any">
+
+                <ul class="ul-left">
+                    <li class="li-inner">
+                        <a href="">lorempixel.com</a>
+                        <span class="p-right">27.01.2021</span>
+                    </li>
+                    <li class="li-inner">
+
+                        <span class="p-title">M1</span>
+
+                    </li>
+                    <li class="li-inner">
+                        <button class="imgbutton pfeil"></button>
+                        <p>0</p>
+                        <button class="more"></button>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li>
+                <img src="https://placeimg.com/130/130/any">
+
+                <ul class="ul-left">
+                    <li class="li-inner">
+                        <a href="">lorempixel.com</a>
+                        <span class="p-right">27.01.2021</span>
+                    </li>
+                    <li class="li-inner">
+
+                        <span class="p-title">M1</span>
+
+                    </li>
+                    <li class="li-inner">
+                        <button class="imgbutton pfeil"></button>
+                        <p>0</p>
+                        <button class="more"></button>
+                    </li>
+
+                </ul>
+            </li>
+
+        </ul>
+    </main>
+    <footer>
+
+        <button class="imgbutton logout"></button>
+        <button class="imgbutton refresh" ></button>
+    </footer>
+    <dialog class="toast" open>
+        lorem ipsum
+    </dialog>
+</body>
+</html>
